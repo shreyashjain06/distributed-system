@@ -39,7 +39,7 @@ public class JJwtUtilityTest
     public void setUp() throws Exception {
         super.setUp();
         userAuth = createUserAuth();
-        testToken = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJZYXNoIiwiaWQiOiJ5YXNoIiwicm9sZSI6IkFkbWluIFVzZXIgIiwiZW1haWxJZCI6Inlhc2hAdGVzdC5jb20ifQ.-UvMWlDDv8o2exm1KZEYk2nKBuyph64zfrp3OrSk4qgn6E5lV03WiaMcSC2pnzhAORtlCJ45Q6UPD-46qffi2A";
+        testToken = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJZYXNoIiwiaWQiOiJ5YXNoIiwicm9sZSI6IkFkbWluIFVzZXIgIiwiZW1haWxJZCI6Inlhc2hAdGVzdC5jb20ifQ.rVDA35Uu--064eF7Nf8cd0wesdcm7pElJu3lOBCtGMEIlt3xEOZkInnFqdj7agnvl6-AMCg3UnQOOs97wYDRAQ";
     }
 
     public void testGenerateToken() {
