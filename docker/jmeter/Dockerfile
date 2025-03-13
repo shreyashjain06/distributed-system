@@ -20,10 +20,10 @@ WORKDIR /usr
 
 ######## Install JMeter ##########
 RUN cd /usr/share && \
-    curl -LO https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.5.tgz && \
-    tar -zxf apache-jmeter-*.tgz && \
-    rm -f apache-jmeter-*.tgz && \
-    mv apache-jmeter-* jmeter && \
+    curl -LO https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.5.tgz && \
+    tar -zxf apache-jmeter-5.5.tgz && \
+    rm -f apache-jmeter-5.5.tgz && \
+    mv apache-jmeter-5.5 jmeter && \
     ln -s /usr/share/jmeter/bin/jmeter /usr/bin/jmeter
 
 RUN mkdir -p /usr/data/jmeter
